@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MOTTOACIL"
+        tools:ignore="ExtraText"
+        tools:targetApi="31">
+        <activity
+            android:name=".MAFA"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcil98"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilDA"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilSepet55"
+            android:exported="false" />
+        <activity
+            android:name=".MADFA"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilDideral"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilSepet11"
+            android:exported="false" />
+        <activity
+            android:name=".MADF"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilFolbiol"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilSepetDİDERAL"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilSaglikligunlerdiler"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilSepet4"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilsepet3"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilSepet2"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilNobetci2"
+            android:exported="false" />
+        <activity
+            android:name=".radyobutton"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilSepet1905"
+            android:exported="false" />
+        <activity
+            android:name=".MotoAcilsepet"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilSepet23"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilSepet"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilNobetci"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilNoberci"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilEczaneListesi"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcil99"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcil0"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAxSSzXfHbYbhAJ6XtkDB4bsbRq4Tc-hUI" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".MottoAcilMap"
+            android:exported="false"
+            android:label="@string/title_activity_motto_acil_map" />
+        <activity
+            android:name=".MottoAcilIlac"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcilEczane"
+            android:exported="false" />
+        <activity
+            android:name=".MottoAcil3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
